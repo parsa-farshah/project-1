@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/output.css" />
+  </head>
+  <body dir="rtl">
+    <header class="w-full mx-auto flex justify-center bg-amber-400">
+      <nav
+        class="h-[80px] w-full 2xl:container flex items-center md:h-[100px] bg-amber-400 relative"
+      >
+        <div
+          class="px-8 py-5 w-full h-full flex justify-between items-center"
+          id="wrapper"
+        >
+          <!-- ------------------------ logo --------------------- -->
+          <div class="w-4/5 md:w-1/6" id="logo">
+            <figure class="w-[154px] h-[34px]">
+              <img src="images/logo.webp" alt="" />
+            </figure>
+          </div>
+
+          <!-- ----------------- links ------------------------- -->
+          <div class="hidden h-full md:flex md:pr-5 md:w-4/6" id="links">
+            <ul
+              class="flex w-full justify-between items-center *:w-1/6 *:h-full *:flex *:justify-between lg:text-lg **:hover:text-white **:flex **:items-center **:justify-center **:capitalize **:text-md **:text-black"
+            >
+              <li>
+                <a class="h-full w-full" href="#"> خانه </a>
+              </li>
+              <li>
+                <a class="h-full w-full" href="#"> خدمات </a>
+              </li>
+              <li>
+                <a class="h-full w-full" href="#"> پرداخت </a>
+              </li>
+              <li>
+                <a class="h-full w-full" href="#"> درباره ما </a>
+              </li>
+              <li>
+                <a class="h-full w-full" href="#"> خبر جدید </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- ----------------------- btn menu ----------------------------- -->
+          <div
+            class="w-1/5 flex justify-end relative md:hidden duration-700 ease-in-out"
+          >
+            <a id="btnMenu" class="cursor-pointer" href="#">
+              <figure
+                class="w-[20px] h-[20px] transition-transform duration-200"
+              >
+                <img src="images/icons8-menu-50.svg" alt="" />
+              </figure>
+            </a>
+            <!----------------------------- close btn -------------------------->
+            <a
+              id="closeBtn"
+              class="cursor-pointer hidden absolute -top-2 left-0"
+              href="#"
+            >
+              <figure
+                class="w-[20px] h-[20px] transition-transform duration-200"
+              >
+                <img src="images/close.png" alt="" />
+              </figure>
+            </a>
+          </div>
+        </div>
+        <!-- ---------------------submenu click on btn
+        menu-------------------------  -->
+        <div
+          class="w-full hidden absolute z-50 top-full right-0 h-[280px]"
+          id="subMenu"
+        >
+          <ul
+            class="w-full h-full *:w-full *:flex *:items-center *:h-1/5 **:w-full **:bg-white **:pr-4 **:flex **:items-center **:hover:bg-gray-50"
+          >
+            <li>
+              <a class="h-full" href="#"> خانه </a>
+            </li>
+            <li>
+              <a class="h-full" href="#"> خدمات </a>
+            </li>
+            <li>
+              <a class="h-full" href="#"> پرداخت </a>
+            </li>
+            <li>
+              <a class="h-full" href="#"> درباره ما </a>
+            </li>
+            <li>
+              <a class="h-full" href="#"> خبر جدید </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-------------------------------- Main ------------------->
+    <main>
+      <!-- ----------------------------first section----------------------------  -->
+      <section
+        class="w-full h-[700px] bgImgFirstSection lg:bg-top 2xl:h-[1100px] lg:h-[800px] bg-no-repeat bg-cover bg-center flex justify-center pt-20 lg:pt-36 pr-10"
+        id="firstSection"
+      >
+        <!-- -----------------blur if i want------------------------  -->
+        <!-- <div
+          class="absolute right-0 top-[80px] inset-0 backdrop-blur-[1px] bg-white/10 z-0"
+        ></div> -->
+
+        <div class="container relative w-full *:text-white">
+          <h6 class="font-semibold text-xl">لورم ایپسوم متن ساختگی</h6>
+          <h1
+            class="relative mt-8 after:absolute after:right-0 after:top-[120%] after:xl:top-[150%] after:content-[] after:w-[80px] after:xl:w-[180px] after:h-[4px] after:bg-amber-400 text-6xl md:text-7xl font-extrabold w-3/6 sm:w-5/6"
+          >
+            لورم ایپسوم متن ساختگی
+          </h1>
+          <p class="mt-20 text-xl font-normal w-4/6 sm:w-5/6">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است
+            <span class="hidden md:flex">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است
+            </span>
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="js/main.js"></script>
+</html>

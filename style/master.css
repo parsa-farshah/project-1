@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* npx @tailwindcss/cli -i ./src/style/master.css -o ./src/style/output.css --watch */
+
+@layer utilities {
+  .show {
+    @apply flex;
+  }
+  .hiddenBtnMenu {
+    @apply hidden;
+  }
+  .bgImgFirstSection {
+    background-image: url(../images/bgFirstSection3.webp);
+  }
+}
+
+body {
+  font-family: lalezar;
+}
+
+@font-face {
+  font-family: lalezar;
+  src: url(../font/lalezar.ttf);
+}

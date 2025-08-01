@@ -280,6 +280,9 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
+  .mt-28 {
+    margin-top: calc(var(--spacing) * 28);
+  }
   .mt-60 {
     margin-top: calc(var(--spacing) * 60);
   }
@@ -1196,9 +1199,24 @@
       width: calc(1/6 * 100%);
     }
   }
+  .md\:w-2\/4 {
+    @media (width >= 48rem) {
+      width: calc(2/4 * 100%);
+    }
+  }
   .md\:w-2\/6 {
     @media (width >= 48rem) {
       width: calc(2/6 * 100%);
+    }
+  }
+  .md\:w-3 {
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 3);
+    }
+  }
+  .md\:w-3\/4 {
+    @media (width >= 48rem) {
+      width: calc(3/4 * 100%);
     }
   }
   .md\:w-3\/5 {

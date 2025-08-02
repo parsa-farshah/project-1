@@ -8,7 +8,7 @@ Built with modern web technologies including **HTML5, CSS3, Tailwind CSS**, and 
 ---
 
 ## 📅 Project Date | تاریخ ساخت  
-**July 29, 2025 | ۲۹ جولای ۲۰۲۵**
+**Aug 2, 2025**
 
 ## 🔗 Live Demo  
 [View Live Demo](https://parsa-farshah.github.io/project-1/)
@@ -57,13 +57,13 @@ Built with modern web technologies including **HTML5, CSS3, Tailwind CSS**, and 
 ## 📸 Project Screenshots | پیش‌نمایش پروژه
 
 ### 🌟 Overview  
-<img src="assets/screenshots/cover.png" alt="Project Overview" width="100%">
+<img src="images/cover.jpg" alt="Project Overview" width="100%">
 
 ### 💻 Desktop View  
-<img src="assets/screenshots/desktop.png" alt="Desktop View" width="100%">
+<img src="images/1.jpg" alt="Desktop View" width="100%">
 
 ### 📱 Tablet View  
-<img src="assets/screenshots/tablet.png" alt="Tablet View" width="60%">
+<img src="images/2.jpg" alt="Tablet View" width="60%">
 
 ### 📱 Mobile View  
-<img src="assets/screenshots/mobile.png" alt="Mobile View" width="45%">
+<img src="images/3.jpg" alt="Mobile View" width="45%">
